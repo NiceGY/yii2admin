@@ -1,15 +1,3 @@
-成型后的系统包括文章、商城、单页、广告、购物车、订单、标签、评论、推荐位、艾特@、消息、支付和回调、后台rbac、后台行为日志、数据可视化、配置管理等、前台用户中心、会员积分等功能。关注的朋友可以先给个Star。。
-
-特别说明，这是一个学习型的项目（注释会尽量详细，尽量将yii2提供的大部分功能都用一遍）。有什么建议可以联系我：phphome@qq.com
-
-如遇bug请告诉作者哦，花你一分钟时间就可以让项目更易使用.^_^.
-
-github : https://github.com/e282486518/yii2admin 
-
-oschina : http://git.oschina.net/ccdream/yii2admin （国内可以下载这个）
-
-交流：http://www.yiichina.com/code/1052 （遇到bug不愿发邮件的可以贴到这里）
-
 全站打包：https://share.weiyun.com/92c0d3e52e99d94255e001c76689b0a1 （不定期更新，安装出错的朋友可以试试这个）
 
 
@@ -67,38 +55,12 @@ Yii::$app->params['web'] = Config::lists();
 * 百度编辑器的上传路径配置在\common\comfig\params.php的ueditorConfig配置项；
 
 
-## 三、服务器配置
 
-* Apache: [点击查看](https://github.com/e282486518/yii2admin/blob/master/doc/htaccess.txt)
 
-* Nginx: [点击查看](https://github.com/e282486518/yii2admin/blob/master/doc/nginx.conf)
 
-## 四、安装
-
-一键安装方法如下：
-
-```
-1、下载源文件或git clone https://github.com/e282486518/yii2admin.git
-2、composer install #安装依赖扩展
-3、php ./yii install #配置环境、配置数据库并安装数据库
-4、参照 doc 目录下的Nginx和Apache配置文件，配置服务器，并设置hosts文件。
 
 超级管理员账号： admin 123456
 普通管理员： guanli 123456
 编辑人员： feifei 123456
 ```
 
-
-## 五、预览
-![登录](https://raw.githubusercontent.com/e282486518/yii2admin/master/doc/preview/login.png)
-![首页](https://raw.githubusercontent.com/e282486518/yii2admin/master/doc/preview/index.png)
-![管理员](https://raw.githubusercontent.com/e282486518/yii2admin/master/doc/preview/admin.png)
-![权限](https://raw.githubusercontent.com/e282486518/yii2admin/master/doc/preview/auth.png)
-![配置](https://raw.githubusercontent.com/e282486518/yii2admin/master/doc/preview/config.png)
-![数据库](https://raw.githubusercontent.com/e282486518/yii2admin/master/doc/preview/database.png)
-![列表](https://raw.githubusercontent.com/e282486518/yii2admin/master/doc/preview/order.png)
-![编辑](https://raw.githubusercontent.com/e282486518/yii2admin/master/doc/preview/order_edit.png)
-![配置皮肤](https://raw.githubusercontent.com/e282486518/yii2admin/master/doc/preview/shop.png)
-![手机版](https://raw.githubusercontent.com/e282486518/yii2admin/master/doc/preview/order_edit1.png)
-![接口调用](https://raw.githubusercontent.com/e282486518/yii2admin/master/doc/preview/api.png)
-![前台](https://raw.githubusercontent.com/e282486518/yii2admin/master/doc/preview/frontend.png)
