@@ -1,5 +1,5 @@
 ## 一、开发基础说明
-* 系统配置文件为.env文件。
+* 系统统一配置文件为.env文件。
 
 * gii生成的模型统一放在 common\models下，模型统一继承 common\core\BaseActiveRecord  方便扩展yii核心；
 
@@ -57,7 +57,5 @@ Yii::$app->params['web'] = Config::lists();
 
 
 超级管理员账号： admin 123456
-普通管理员： guanli 123456
-编辑人员： feifei 123456
 ```
 
